@@ -3,7 +3,7 @@ import React from "react";
 const totalPokemons = 1057
 
 export const searchPokemon = async (pokemonName) => {
-  const urlApi = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+  const urlApi = `https://pokeapi.co/${pokemonName}`
   try {
     const response = await fetch(urlApi)
     const data = await response.json()

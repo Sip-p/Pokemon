@@ -47,7 +47,7 @@ function App() {
       favoritePokemons: favorite,
       updateFavoritePokemon: updateFavoritePokemons
     }}>
-      <div className="App">
+      <div className="App ">
         <Navbar />
         <SearchValueProvider>
           <SearchBar />
