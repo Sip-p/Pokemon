@@ -1,0 +1,63 @@
+.comparison-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  .comparison-modal table {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .comparison-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .comparison-modal table th, .comparison-modal table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .comparison-modal table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .comparison-modal table td.highlight {
+    background-color: #fffae6;
+    font-weight: bold;
+  }
+  
+  .comparison-modal button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .comparison-modal button:hover {
+    background-color: #e60000;
+  }
+  
